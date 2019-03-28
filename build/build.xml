@@ -31,7 +31,7 @@
 	<mkdir dir="../source/${build.dir}"/>
         <javac destdir="../source/${build.dir}" source="1.8" target="1.8" debug="true"
                deprecation="false" optimize="false" failonerror="true" includeantruntime="false">
-            <src path="../../source/${src.dir}"/>
+            <src path="../source/${src.dir}"/>
             <classpath refid="master-classpath"/>
         </javac>
     </target>
